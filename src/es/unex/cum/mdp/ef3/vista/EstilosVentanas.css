@@ -1,0 +1,20 @@
+
+.root {
+      -fx-background-image: url('../resource/grisfondo.jpg'); 
+    -fx-background-repeat: stretch; 
+    -fx-background-size: cover; 
+}
+
+.label {
+    -fx-font-family: "Verdana Pro Semibold";
+}
+
+.button {
+    -fx-font-family: "Book Antiqua";
+}
+
+#lTitulo {
+    -fx-font-family: "Bell MT";
+    -fx-font-size: 18.0px;
+    -fx-font-weight: bold;
+}

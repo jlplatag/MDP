@@ -1,0 +1,121 @@
+#bpGeneral {
+	-fx-background-image: url('../resource/fondoBingo.jpeg'); 
+    -fx-background-repeat: stretch; 
+    -fx-background-size: cover; 
+}
+
+.menu-bar {
+    -fx-background-color: black ;
+    -fx-border-width: 2.0;
+
+}
+.menu-bar .label {
+    -fx-font-size: 14.0 pt;
+    -fx-font-family: "Bookman Old Style";
+    -fx-text-fill: white;
+    -fx-font-weight: bold; 
+    -fx-padding: 10.0px;
+
+}
+.menu-bar .menu-button:hover, .menu-bar .menu-button:focused, .menu-bar .menu-button:showing {
+    -fx-background: black ;
+    -fx-opacity: 0.5;
+    -fx-text-fill: white;
+}
+
+.menu-item {
+    -fx-padding: 0.0em 0.0em 0.0em 0.0em;
+    -fx-text-fill: black;
+    -fx-background: darkgray ;
+}
+.menu-item .label{
+    -fx-font-size: 14.0 pt;
+    -fx-text-fill: black;
+}
+.menu-item .label:hover{
+    -fx-font-size: 14.0 pt;
+    -fx-background: black ;
+    -fx-text-fill: white;
+}
+.context-menu {
+    -fx-background-color:white ;
+    -fx-border-width: 0.2px;
+    -fx-border-color: black;
+}
+
+/* Estilos para TableView */
+.table-view {
+    -fx-background-color: #f4f4f4; /* Fondo del TableView */
+}
+
+/* Estilos para las columnas del TableView */
+.table-view .column-header-background {
+    -fx-background-color: #2a2a2a; /* Fondo de las cabeceras de columna */
+}
+
+.table-view .column-header,
+.table-view .filler {
+    -fx-background-color: #2a2a2a; /* Fondo de las cabeceras de columna y relleno de columna */
+    -fx-text-fill: white; /* Color del texto en las cabeceras de columna */
+}
+
+.table-view .column-header .label,
+.table-view .filler .label {
+    -fx-text-fill: white; /* Color del texto en las cabeceras de columna */
+}
+
+/* Estilos para las celdas del TableView */
+.table-row-cell {
+    -fx-background-color: lightgrey; /* Fondo de las celdas */
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #a6a6a6; /* Fondo de las celdas seleccionadas */
+}
+
+.table-cell {
+    -fx-border-color: black; /* Color del borde de las celdas */
+}
+
+/* Estilos para las líneas del TableView */
+.table-view .column-header,
+.table-view .table-cell {
+    -fx-border-width: 0.5;
+    -fx-border-insets: 0.0;
+    -fx-border-style: solid;
+    -fx-border-color: black;
+}
+
+/* Estilo para las celdas especiales */
+.list-view .special-cell {
+    -fx-background-color: green;
+    -fx-text-fill: white; /* Color del texto en las celdas */
+}
+
+/* Estilos para ListView */
+.list-view {
+    -fx-background-color: #f4f4f4; /* Fondo del ListView */
+}
+
+/* Estilos para las celdas del ListView */
+.list-cell {
+    -fx-background-color: lightgrey; /* Fondo de las celdas */
+}
+
+.list-cell:selected {
+    -fx-background-color: #a6a6a6; /* Fondo de las celdas seleccionadas */
+}
+
+.list-cell .label {
+    -fx-text-fill: black; /* Color del texto en las celdas */
+}
+
+/* Estilos para las líneas del ListView */
+.list-view .list-cell {
+    -fx-border-width: 0.5;
+    -fx-border-insets: 0.0;
+    -fx-border-style: solid;
+    -fx-border-color: black;
+}
+
+

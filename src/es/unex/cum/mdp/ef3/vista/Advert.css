@@ -1,0 +1,40 @@
+/* Advert.css */
+
+.dialog-pane {
+          -fx-background-image: url('../resource/grisfondo.jpg'); 
+    -fx-background-repeat: stretch; 
+    -fx-background-size: cover; 
+    -fx-font-family: "Verdana Pro Semibold";
+}
+
+.alert {
+      -fx-background-image: url('../resource/grisfondo.jpg'); 
+    -fx-background-repeat: stretch; 
+    -fx-background-size: cover; 
+}
+
+.alert .header-panel {
+      -fx-background-image: url('../resource/grisfondo.jpg'); 
+    -fx-background-repeat: stretch; 
+    -fx-background-size: cover; 
+}
+
+.alert .content-text {
+          -fx-background-image: url('../resource/grisfondo.jpg'); 
+    -fx-background-repeat: stretch; 
+    -fx-background-size: cover; 
+}
+
+.button-bar {
+         -fx-background-image: url('../resource/grisfondo.jpg'); 
+    -fx-background-repeat: stretch; 
+    -fx-background-size: cover; 
+}
+
+.button-bar .button {
+    -fx-background-color: white; /* Fondo de los botones */
+}
+
+.button-bar .button:hover {
+    -fx-background-color: grey; /* Cambia el color al pasar el ratón sobre los botones */
+}
